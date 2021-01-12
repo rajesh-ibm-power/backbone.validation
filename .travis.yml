@@ -12,6 +12,6 @@ addons:
     update: true
     packages: 
        - build-essential 
-       - grunt-cli
+       - grunt
        - npm 
        - wget 
