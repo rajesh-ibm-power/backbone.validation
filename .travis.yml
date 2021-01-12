@@ -7,11 +7,15 @@ arch:
    - amd64
    - ppc64le   
 
+before_install: npm install -g grunt-cli
+
+before_script: grunt build
+
 addons:
    apt:
     update: true
     packages: 
        - build-essential 
-       - grunt
        - npm 
        - wget 
+       
